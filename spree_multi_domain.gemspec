@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_multi_domain'
-  s.version     = '3.0.0'
+  s.version     = '3.0.2'
   s.summary     = 'Adds multiple site support to Spree'
   s.description = 'Multiple Spree stores on different domains - single unified backed for processing orders.'
   s.required_ruby_version = '>= 1.9.2'
@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'capybara', '~> 1.1.4'
   s.add_development_dependency 'coffee-rails'
-  s.add_development_dependency 'factory_girl', '~> 4.3.0'
+  s.add_development_dependency 'factory_girl', '~> 4.5'
   s.add_development_dependency 'ffaker'
   s.add_development_dependency 'rspec-rails',  '~> 2.7'
   s.add_development_dependency 'sass-rails', '~> 4.0.2'
